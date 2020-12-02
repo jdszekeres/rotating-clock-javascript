@@ -1,4 +1,3 @@
-var m="AM"
 function draw(){
     for(i=0;i<60;i++){
       D = (i<10) ? "0"+i : i;
@@ -76,6 +75,7 @@ function draw(){
   }
   
   $(document).ready(function(){
+    message('running', 'the clock is avalible')
     draw();
     place();
     clock();
