@@ -75,7 +75,9 @@ function draw(){
   }
   
   $(document).ready(function(){
-    message('running', 'the clock is avalible')
+    //onload start
+    //make sure the whole document is loaded first
+    message('running', 'the clock is avalible');
     draw();
     place();
     clock();
